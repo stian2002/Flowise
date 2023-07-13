@@ -55,9 +55,9 @@ class ConversationChain_Chains implements INode {
                 rows: 4,
                 additionalParams: true,
                 optional: true,
-                placeholder: 'You are a helpful assistant that write codes'
+                placeholder: 'Du er snill og hyggelig!'
             }
-        ]
+        }
     }
 
     async init(nodeData: INodeData): Promise<any> {
