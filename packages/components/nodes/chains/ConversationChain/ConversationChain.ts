@@ -57,7 +57,7 @@ class ConversationChain_Chains implements INode {
                 optional: true,
                 placeholder: 'TEST'
             }
-        }
+        [
     }
 
     async init(nodeData: INodeData): Promise<any> {
